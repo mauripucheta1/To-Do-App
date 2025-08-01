@@ -1,0 +1,16 @@
+.taskList::-webkit-scrollbar {
+  width: 8px; /* ancho de la barra */
+}
+
+.taskList::-webkit-scrollbar-track {
+  background: #f1f1f1; /* fondo de la pista */
+}
+
+.taskList::-webkit-scrollbar-thumb {
+  background: #83CEEB; /* color del scroll */
+  border-radius: 8px;
+}
+
+.taskList::-webkit-scrollbar-thumb:hover {
+  background: #5dbbe4; /* al pasar el mouse */
+}
